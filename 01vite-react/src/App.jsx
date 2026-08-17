@@ -1,8 +1,11 @@
+import Chai from "./Chai"
+import { useState } from 'react'
 
 function App() {
+  const [count, setCount] = useState(0)
 
   return (
-   <h1>Sanskruti | With vite</h1>
+   <Chai />
   )
 }
 
