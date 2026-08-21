@@ -19,11 +19,13 @@ function MyApp(){
 //     Children : 'Click me to visit google'
 // }
 
+const anotherUser = 'Chai aur code'
 const ReactElement = React.createElement(
     'a' ,
     {href : 'https://google.com',
     target: '_blank'},
-    'Click me to visit google'
+    'Click me to visit google',
+    anotherUser
 )
 
 const anotherElemenet = (
