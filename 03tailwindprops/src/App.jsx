@@ -1,11 +1,16 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
+import Card from './components/Card'
 
 function App() {
   const [count, setCount] = useState(0)
+
+  let myObj = {
+        username : "Sanskruti",
+        age : 18
+      }
+
+  let newArr = [1,2,3]
 
   return (
     <>
@@ -24,6 +29,9 @@ function App() {
         </span>
       </div> */}
 
+      <Card username="Chai aur code" btnText="Buy now"/>
+      <Card username="Sanskruti" btnText ="Visit me"/>
+      <Card username = "Chai aur React" btnText="Visit and Buy"/>
     </>
   )
 }
